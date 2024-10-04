@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ampliación Visual con Círculos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>AMPLIACIÓN VISUAL CON CÍRCULOS</h1>
+        <p>A continuación, encontrarás un ejercicio donde aparecerá un círculo rodeado de números. La figura se irá ampliando y debes intentar ver los números con una sola fijación, es decir, enfocando la vista en la mitad del círculo.</p>
+        <label for="speedInput">Velocidad (milisegundos):</label>
+        <input type="number" id="speedInput" min="100" value="1000">
+        <button id="startButton">Iniciar</button>
+    </div>
+    <div id="timer" class="hidden">Tiempo restante: 02:00</div>
+    <div id="gameContainer" style="display:none;">
+        <div class="circulo" id="circleContainer">
+            <!-- Los círculos se insertarán aquí -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
