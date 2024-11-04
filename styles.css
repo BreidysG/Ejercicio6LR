@@ -69,3 +69,28 @@ body #timer {
 .hidden {
     display: none;
 }
+@media (max-width: 700px) {
+    #container {
+        width: 90%; /* Ajuste el ancho para que el contenedor ocupe más espacio en móvil */
+        padding: 15px; /* Reducir padding para evitar que el contenido se vea comprimido */
+    }
+
+    #startButton {
+        padding: 8px 16px;
+        font-size: 14px; /* Ajustar tamaño de fuente en botón */
+    }
+
+    #timer {
+        font-size: 20px; /* Ajustar tamaño de fuente del temporizador */
+        margin-bottom: 15px; /* Reducir el margen inferior */
+    }
+
+    .circulo {
+        width: 80px; /* Tamaño menor para el círculo en móvil */
+        height: 80px;
+    }
+
+    .circulo div {
+        font-size: 16px; /* Reducir el tamaño de los números en el círculo */
+    }
+}
