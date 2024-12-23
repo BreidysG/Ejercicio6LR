@@ -43,7 +43,9 @@ function displayCircles(circleNumber) {
 
     let sizes = [50, 100, 150, 200, 250]; // Tamaño de los círculos
     if (window.innerHeight <= 600) {
-        sizes = [75, 100, 130, 170, 200]; // Reducir alturas en dispositivos móviles
+        sizes = [37.5, 50, 65, 85, 100]; // Reducir alturas en dispositivos móviles
+    }if (window.innerWidth <= 400) {
+        sizes = [37.5, 50, 65, 85, 100]; // Reducir alturas en dispositivos móviles
     }
     // Crear círculo
     const circle = document.createElement('div');

@@ -69,7 +69,7 @@ body #timer {
 .hidden {
     display: none;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     #container {
         width: 90%; /* Ajuste el ancho para que el contenedor ocupe más espacio en móvil */
         padding: 15px; /* Reducir padding para evitar que el contenido se vea comprimido */
@@ -92,5 +92,16 @@ body #timer {
 
     .circulo div {
         font-size: 16px; /* Reducir el tamaño de los números en el círculo */
+    }
+}
+@media (max-width: 400px) {
+    
+    .circulo {
+        width: 40px; /* Tamaño menor para el círculo en móvil */
+        height: 40px;
+    }
+
+    .circulo div {
+        font-size: 12px; /* Reducir el tamaño de los números en el círculo */
     }
 }
